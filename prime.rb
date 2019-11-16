@@ -1,5 +1,5 @@
 def prime?(numbers)
-  prime = true
+  prime = false
   i = 0
   new_array = []
   while i < numbers.length
@@ -7,7 +7,7 @@ def prime?(numbers)
     i = i + 1 
   end
   if new_array.include?(2)
-    prime = false 
+    prime = true
   end
 end
   
